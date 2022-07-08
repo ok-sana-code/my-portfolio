@@ -13,10 +13,6 @@ body {
   font-family: var(--primary-font-family);
 }
 
-.navbar-logo {
-  font-family: "Fleur De Leah", cursive;
-}
-
 h1,
 h2,
 h3 {
@@ -40,6 +36,11 @@ h1 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+}
+
+.navbar-logo {
+  font-family: "Fleur De Leah", cursive;
+  font-size: 32px;
 }
 
 .navigation-links a {
@@ -116,6 +117,7 @@ h3 {
 }
 .project-img-about {
   background-color: var(--secondary-color);
+  border: 5px solid white;
 }
 .primary-link {
   border-radius: 4px;
