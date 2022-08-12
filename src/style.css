@@ -1,7 +1,6 @@
 :root {
   --primary-color: #f7988d;
   --secondary-color: #f5f2fe;
-  --third-color: #ef5f9a;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font-family: "Times New Roman", Times, serif;
 }
@@ -38,8 +37,8 @@ h3 {
   opacity: 0.7;
 }
 
-h4{
-   font-size: 20px;
+h4 {
+  font-size: 20px;
 }
 
 .navbar-logo {
@@ -85,19 +84,21 @@ h4{
 .projects {
   margin-top: 100px;
 }
-
-.header {
-  animation: 5s show ease;
+.projects h2{
+  color: var(--primary-color);
 }
+/* .header {
+  animation: 5s show ease;
+} */
 
-@keyframes show {
+/* @keyframes show {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
   }
-}
+} */
 .my-project {
   margin-top: 30px;
 }
@@ -152,9 +153,8 @@ h4{
   text-decoration: none;
 }
 footer {
-  background-color:white;
+  background-color: white;
   margin-top: 30px;
-
 }
 
 @media (max-width: 576px) {
@@ -165,7 +165,7 @@ footer {
   h2 {
     font-size: 32px;
   }
-#email-link {
-   font-size: 18px;
-}
+  #email-link {
+    font-size: 18px;
+  }
 }
